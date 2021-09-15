@@ -35,13 +35,13 @@ $ python app.py
 | pokemon | In addition api was built for receive the combination for sorting and filtering |[http://127.0.0.1:5000/api/pokemon?sort_ord=asc&sort_col=id&filter=1][PlGh] |
 
 It will ask for a valid authentication:
-password is: superuser
+password is: superuser 
 ![](https://github.com/rsh456/autolab/blob/main/api_auth.jpg)
 
 Will get all the data if no params are attached to the request
 ![](https://github.com/rsh456/autolab/blob/main/api_noparams.jpg)
 
-Otherwise
+Otherwise it will show data according to sent paramaters.
 ![](https://github.com/rsh456/autolab/blob/main/api_filter.jpg)
 
 
